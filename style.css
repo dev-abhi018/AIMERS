@@ -67,7 +67,7 @@ button{
 }
 #box3{
     padding: 0;
-    background-color: #ffdde2;
+    background-color: transparent;
     height: 400px;
     width: 50%; 
 }
@@ -158,13 +158,28 @@ p{
 
 #footerdown{
     height: 400px;
+    width: 100%; 
+}
+#fbox1{
     width: 100%;
-    background-color: blue;
+    height: 360px;
+    background-color: aqua;
 }
 #fbox2{
-    height: 25px;
+    height: 40px;
     width: 100%;
-    background-color: black;
+    background-color: #ffdde2;
     padding: 0;
+    padding-top: 15px;
+    position: relative;
     
+}
+.fbox2{
+    justify-content: space-between;
+    cursor: pointer;
+    
+}
+.Copyright{
+    margin-left: 51%;
+    margin-right: 0%;
 }
