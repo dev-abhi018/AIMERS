@@ -51,7 +51,7 @@ button{
 #box1{
     margin: 0;
     padding: 64px 0px;
-    background-color: blue;
+    background-color: #ffdde2;
     display: flex;
 }
 #box2{
@@ -126,8 +126,8 @@ button{
     box-sizing: content-box;
     border: 0;
     background: none;
-    border-radius: 0px;
     display: block;
+    outline: none;
 }
 .joinbutton{
     margin: 12px;
