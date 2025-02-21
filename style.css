@@ -183,3 +183,10 @@ p{
     margin-left: 51%;
     margin-right: 0%;
 }
+@media (width:425px) {
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    
+}
