@@ -278,3 +278,33 @@ p{
     }
     
 }
+footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    border-top: 1px solid #ddd;
+}
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+.footer-column {
+    flex: 1;
+    margin: 0 20px;
+}
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    margin: 5px 0;
+}
+
